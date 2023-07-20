@@ -11,6 +11,11 @@ namespace OpenTKtest
     {
         public readonly int Handle;
         private readonly Dictionary<string, int> _uniformLocations;
+        /// <summary>
+        /// 着色器构造函数
+        /// </summary>
+        /// <param name="vertPath"></param>
+        /// <param name="fragPath"></param>
         public Shader(string vertPath, string fragPath)
         {
             //创建顶点着色器
